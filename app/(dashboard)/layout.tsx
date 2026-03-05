@@ -34,7 +34,7 @@ export default function DashboardLayout({
             <main className="flex-1 w-full lg:w-auto rounded-b-3xl lg:rounded-r-3xl lg:rounded-bl-none bg-muted p-3 sm:p-5 md:px-7 md:py-7 xl:pb-7 xl:pt-0 overflow-auto">
               <Topbar onMenuClick={() => setSidebarOpen(true)} />
               {children}
-
+<p className="mt-2 bottom-0">© All rights reserved by <a href="https://codescandy.com/">CodesCandy</a>. Distributed by: <a href="https://themewagon.com" target="_blank">ThemeWagon</a></p>
             </main>
           </div>
         </div>
